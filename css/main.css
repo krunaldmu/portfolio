@@ -4,49 +4,53 @@ body{
     padding: 10px;;
     text-align:center;    
     font-family: 'Open Sans', sans-serif;
-    /*background-color: #ecf0f1;*/
-    border: 1px solid red;  
+}
+
+p{
+    font-size: 0.875em;
 }
 
 div#profile{
     margin: auto;
-    padding: 10px;
-    border: 1px red;    
+    padding: 10px; 
 }
 
 nav#main{
     margin: auto;
     padding: 10px;
-    font-weight: 600;
+    font-size: 125%;
     text-transform: uppercase; 
-    border: 1px solid red;
 }
 
 img#avatar {
     margin: auto;
     padding: 10px;
 	border-radius: 50%;
-    border: 1px solid red;
 }
 
 h1{
     color: #7f8c8d; 
     margin: auto;
+    font-weight: normal;
+    font-size: 2.5em;
     padding: 10px;
-    border: 1px solid red; 
 }
 
 h2{
     color: #bdc3c7;
-    font-size: 100%; 
-    border: 1px solid red;
+    font-size: 1.875em; 
 }
 
 a {
     text-decoration: none;
+    color: #212121;
     transition: all 0.2s linear;
 }
     
 a:hover, a:focus {
-    color: red;
+    color: #B22222;
+}
+
+@media only screen and (max-width: 768px) {
+    
 }
