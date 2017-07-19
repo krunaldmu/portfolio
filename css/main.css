@@ -13,11 +13,13 @@ body{
 
  p{
     padding: 0px; 
+    text-align: justify;
 } 
 
  p#subtitle{
     font-size: 1.0em;
     margin: auto;
+    text-align: center;
 } 
 
 div#profile{
@@ -33,10 +35,22 @@ div#main{
     word-spacing: 10px; 
 }
 
+.group {
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 0px;
+}
+
 img#avatar {
     margin: auto;
     padding: 10px;
     border-radius: 50%;
+}
+
+.social {
+    margin: auto;
+    padding: 10px;
+    word-spacing: 10px;
 }
 
 h1{
@@ -77,6 +91,32 @@ a:hover, a:focus {
     color: #B22222;
 }
 
+a:hover#mail {
+    color: #e74c3c;
+}
+
+a:hover#fb {
+    color: #3B5998;
+}
+
+a:hover#twitter {
+    color: #00aced;
+}
+
+a:hover#github {
+    color: #767676;
+}
+
+a:hover#linkedin {
+    color: #0077B5;
+}
+
+.top{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding: 10px;
+}
+
 hr {
     display: block;
     -webkit-margin-before: 0.5em;
@@ -89,10 +129,10 @@ hr {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: 180px 180px 180px;
   grid-gap: 10px;
   margin: 0 auto;
-  width: 350px;
+  width: 560px;
   padding-top: 10px;
 }
 
@@ -128,7 +168,6 @@ li {
 
     .container{
         text-align: center;
-        width: 20%;
     }
 
     .section {
