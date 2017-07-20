@@ -23,6 +23,10 @@ p#subtitle {
     text-align: center;
 }
 
+p#personal{
+    padding: 1px;
+}
+
 div#profile {
     margin: auto;
     padding: 0;
@@ -55,6 +59,10 @@ img#avatar {
     margin: auto;
     padding: 10px;
     border-radius: 50%;
+    width: 150px;
+    height: auto;
+    -webkit-filter: grayscale(20%);
+    filter: grayscale(20%);
 }
 
 .social {
@@ -77,12 +85,12 @@ h2 {
 }
 
 h3 {
-    padding: 0px;
+    padding: 1px;
     margin: 0 auto;
 }
 
 h4 {
-    padding: 0px;
+    padding: 1px;
     margin: 0 auto;
     font-weight: normal;
 }
@@ -171,6 +179,7 @@ li {
     margin: 0 auto;
     padding: 0px;
     list-style-type: none;
+    padding: 1px;
 }
 
 li#core {
